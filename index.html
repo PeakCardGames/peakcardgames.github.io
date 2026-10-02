@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PeakCard Games</title>
+<meta name="description" content="PeakCard Games – Skat & Schafkopf Classic für Android.">
+<style>
+  :root { --ground:#F4EFE4; --surface:#FCF9F2; --ink:#2B2118; --soft:#6A5A48; --brass:#8A6117; --rule:#D9CEB9; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ground:#17120D; --surface:#1F1912; --ink:#EBE1D0; --soft:#B2A28B; --brass:#D6A44A; --rule:#3C3125; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--ground); color:var(--ink);
+         font:16px/1.6 Georgia, "Times New Roman", serif; }
+  main { max-width:36rem; margin:0 auto; padding:4rem 20px; }
+  .eyebrow { font:600 .72rem/1 system-ui, sans-serif; letter-spacing:.16em;
+             text-transform:uppercase; color:var(--brass); margin:0 0 .8rem; }
+  h1 { font-size:2.2rem; line-height:1.1; margin:0 0 .4rem; }
+  .lede { color:var(--soft); margin:0 0 2.2rem; }
+  .app { background:var(--surface); border:1px solid var(--rule); border-top:3px solid var(--brass);
+         padding:1.4rem 1.4rem 1.2rem; }
+  .app h2 { margin:0 0 .3rem; font-size:1.3rem; }
+  .app p { margin:0 0 1rem; color:var(--soft); }
+  .btn { display:inline-block; background:var(--brass); color:var(--ground); text-decoration:none;
+         font:600 .95rem/1 system-ui, sans-serif; padding:.75rem 1.1rem; border-radius:3px; }
+  .btn:focus-visible { outline:2px solid var(--ink); outline-offset:2px; }
+  footer { margin-top:3rem; padding-top:1rem; border-top:1px solid var(--rule);
+           font:.85rem/1.6 system-ui, sans-serif; color:var(--soft); }
+  footer a { color:var(--brass); }
+</style>
+</head>
+<body>
+<main>
+  <p class="eyebrow">PeakCard Games</p>
+  <h1>Kartenspiele aus dem Wirtshaus</h1>
+  <p class="lede">Traditional German card games, played the way they are played at the Stammtisch.</p>
+
+  <section class="app">
+    <h2>Skat &amp; Schafkopf Classic</h2>
+    <p>Skat und Schafkopf in einer App – Sauspiel, Wenz, Solo, Ramsch und das ganze Reizen. Komplett offline, ohne Anmeldung, kostenlos.</p>
+    <a class="btn" href="https://play.google.com/store/apps/details?id=com.card.skatschafkopfclassic">Bei Google Play</a>
+  </section>
+
+  <footer>
+    <!-- Replace PRIVACY_POLICY_URL with the address of your privacy policy. -->
+    <a href="PRIVACY_POLICY_URL">Datenschutz / Privacy policy</a>
+    &nbsp;·&nbsp; © 2026 PeakCard Games
+  </footer>
+</main>
+</body>
+</html>
